@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-body {
+  background-color: #637699;
+  min-height: 76vh;
+  padding-top: 5vh;
+}
+
+.playerTurn {
+  font-size: 5vh;
+}
+
+.btn {
+  background-color:aliceblue;
+  height: 10vh;
+  width: 10vh;
+  cursor:pointer;
+}
+
+#a {
+  border-top: 1px;
+  border-left:1px;
+}
+
+#b {
+  border-top:10px;
+  border-left: 10px;
+  border-right: 10px;
+}
+
+#c {
+  border-right: 10px;
+  border-top: 10px;
+}
+
+#d {
+  border-top:10px;
+  border-left: 10px;
+  border-bottom:10px;
+}
+
+#e {
+  border:none;
+}
+
+#f {
+  border-right:10px;
+  border-top: 10px;
+  border-bottom:10px;
+}
+
+#g {
+  border-left:10px;
+  border-bottom: 10px;
+}
+
+#h {
+  border-bottom: 10px;
+  border-right: 10px;
+  border-left:10px;
+}
+
+#i {
+  border-right:10px;
+  border-bottom: 10px;
+}
+
+.btn:hover {
+  background-color: green;
+  animation: normal;
+}
+
